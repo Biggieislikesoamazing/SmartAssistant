@@ -166,7 +166,7 @@ def handle_command():
 # ==== Update button functionality ====
 def update_app():
     # Replace this URL with your GitHub raw file URL
-    url = "https://raw.githubusercontent.com/yourusername/SmartAssistant/main/assistant.py"
+    url = "https://raw.githubusercontent.com/Biggieislikesoamazing/SmartAssistant/refs/heads/main/SmartAssistant.py"
     try:
         r = requests.get(url)
         if r.status_code == 200:
