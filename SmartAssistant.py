@@ -197,7 +197,7 @@ command_entry = tk.Entry(entry_frame, width=55, font=("Helvetica", 14), bd=0, fg
 command_entry.pack(ipady=8, padx=5)
 
 def on_enter(e):
-    go_button['bg'] = "#43B581"
+    go_button['bg'] = "#FF0000"
 def on_leave(e):
     go_button['bg'] = "#4CAF50"
 
